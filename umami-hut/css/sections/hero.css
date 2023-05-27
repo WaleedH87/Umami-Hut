@@ -1,0 +1,171 @@
+.hero {
+    display: flex;
+    min-height: calc(100vh - 74px);
+    overflow: hidden;
+}
+
+.hero-image {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: relative;
+    z-index: 5;
+}
+
+.hero-image img {
+    width: 120%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.hero-image__overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+
+    background-color: var(--primary);
+    z-index: -1;
+}
+
+.hero-image h2 {
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    font-family: var(--cormorant);
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 138px;
+    color: white;
+}
+
+.hero-content {
+    flex: 1.22;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.hero-content-info {
+    padding: 64px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-content-info h1 {
+    font-size: 80px;
+    font-weight: 600px;
+    font-family: var(--cormorant);
+    color: var(--secondary);
+}
+
+.hero-content-info p {
+    margin: 32px 0 0 32px;
+    font-family: var(--plus-jakarta-sans);
+    color: var(--secondary);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hero-content__buttons {
+    margin: 41px 0 0 41px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.hero-content__order-button {
+    padding: 20px;
+    border-radius: 36px;
+    min-width: 212px;
+    outline: none;
+    border: none;
+    background: var(--secondary);
+    
+    cursor: pointer;
+
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: var(--plus-jakarta-sans);
+
+    line-height: 23px;
+}
+
+.hero-content__play-button {
+    border: none;
+    outline: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    
+    cursor: pointer;
+    
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black-2);
+    font-family: var(--plus-jakarta-sans);
+}
+
+.hero-content__play-button img {
+    margin-right: 12px;
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+
+.hero-content__testimonial {
+    padding: 32px 64px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    background: var(--color-white);
+}
+
+.hero-content__customer {
+    flex: 1;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-content__customer h4 {
+    font-size: 62px;
+    font-weight: 500;
+    color: var(--black-2);
+    font-family: var(--cormorant);
+}
+.hero-content__customer p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--secondary);
+    font-family: var(--plus-jakarta-sans);
+}
+
+.hero-content__review {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    padding-left: 20px;
+    border: 1px solid rgba(2, 2, 2, 0.08);
+    border-radius: 10px;
+    min-width: 200px;
+}
+
+.hero-content__review img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+}
+
+.hero-content__review p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--secondary);
+    opacity: 0.8;
+    font-family: var(--plus-jakarta-sans);
+}
