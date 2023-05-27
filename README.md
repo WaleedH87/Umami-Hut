@@ -23,7 +23,7 @@
 
 :green_circle:  Fully responsive on all devices - Desktop/Tablet/Mobile.
 
-:green_circle:  Smooth animated page transitions, enhancing the user experience by providing seamless navigation between different sections or pages. 
+:green_circle:  Smooth animated page transitions, enhancing the user experience by providing seamless navigation between different sections.
 
 
 ## Contributing  :open_hands:
