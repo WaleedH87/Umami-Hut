@@ -2,7 +2,7 @@
 
 >Welcome to Umami Hut! Experience this dynamic website with a simple, modern design crafted using HTML, CSS, and JS. It focuses on user experience with super-fast loading, seamless animations, and optimal performance. The responsive design ensures a great browsing experience on any device. All the components are in the src file.
 
-## [Live Website](https://umamihut.co.uk/))
+## [Live Website](https://umamihut.co.uk/)
 
 ![Preview](/preview.png)
 
